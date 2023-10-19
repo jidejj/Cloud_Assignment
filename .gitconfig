@@ -1,3 +1,5 @@
 [user]
 	email = olaniyanjide@hotmail.com
 	name = Olaniyan Jide
+[init]
+	defaultBranch = main
