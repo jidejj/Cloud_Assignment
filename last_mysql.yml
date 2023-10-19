@@ -1,0 +1,51 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Install MySQL
+      apt:
+        name: mysql-server
+        state: present
+
+    - name: Copy custom MySQL configuration
+      copy:
+        src: /home/vagrant/.my.cnf
+        dest: /etc/mysql/.my.cnf
+      notify: Restart PyMySQL
+
+    - name: Ensure MySQL is started and enabled
+      service:
+        name: mysql
+        state: started
+        enabled: yes
+
+    - name: Create a MySQL database
+      mysql_db:
+        name: altschooldb
+        state: present
+      become_method: sudo
+      become_user: altschool
+      become: yes
+
+    - name: Create a MySQL table
+      mysql_db:
+        name: altschooldb
+        state: import
+        target: /home/vagrant/dump.sql
+      become_user: altschool
+      become: yes
+
+    - name: Create a MySQL user
+      mysql_user:
+        name: altschool
+#        host: "%"
+#        login_host: localhost
+        password: altschool
+        priv: '*.altschool:ALL'
+        state: present
+
+  handlers:
+    - name: Restart PyMySQL
+      service:
+        name: mysql-server
+        state: restarted
