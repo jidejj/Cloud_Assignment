@@ -660,3 +660,269 @@ ssh altschool@192.168.56.25
 ls -al
 cd .ssh
 exit
+su - altschool
+passwd altschool
+sudo passwd altschool
+su - altschool
+ls -al
+cp *yml /home/altschool
+sudo cp *yml /home/altschool
+su - altschool
+ls -al
+ansible-playbook mysql.yml
+nano mysql.yml
+ansible-playbook mysql.yml
+sudo -i
+ansible-playbook mysql.yml
+nano mysql.yml
+ansible-playbook mysql.yml
+sudo -i
+ssh altschool@192.168.56.25
+ssh vagrant@192.168.56.25
+ls -al
+bash lampstack.sh
+ssh altschool@192.168.56.25
+ssh vagrant@192.168.56.25
+sudo nano /etc/sudoers
+ssh vagrant@192.168.56.25
+bash lampstack.sh
+ssh altschool@192.168.56.25
+ssh vagrant@192.168.56.25
+bash lampstack.sh
+ssh vagrant@192.168.56.25
+bash lampstack.sh
+ssh vagrant@192.168.56.25
+bash lampstack.sh
+nano lampstack.sh
+bash lampstack.sh
+nano lampstack.sh
+cd /home/altschool/.ssh
+sudo chmod 777 /home/altschool/.ssh
+ls 
+cd /home/altschool/.ssh
+ls -al
+nano id_rsa.pub
+ssh vagrant@192.168.56.25
+nano id_rsa.pub 
+cat id_rsa.pub > key.txt
+more key.txt 
+ssh vagrant@192.168.56.25
+ssh altschool@192.168.56.25
+ssh vagrant@192.168.56.25
+cd ~
+ssh altschool@192.168.56.25
+su - altschool
+nano lampstack.sh
+ssh vagrant@192.168.56.25
+nano lampstack.sh
+ls -al
+ansible-playbook lampstack.yml
+ansible-playbook last_mysql.yml 
+nano last_mysql.yml 
+ls -al
+nano .my.cnf
+cd /home/altschool/
+ls -al
+nano .my.cnf
+sudo nano .my.cnf
+sudo chmod 664 .my.cnf
+ls -al
+cd ~
+nano last_mysql.yml 
+ansible-playbook last_mysql.yml 
+ssh vagrant@192.168.56.25
+ls -al
+nano last_mysql.yml
+nano dump.sql
+ansible-playbook lampstack.yml
+ansible-playbook last_mysql.yml
+nano dump.sql
+ansible-playbook last_mysql.yml
+nano dump.sql
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+nano dump.sql
+ssh vagrant@192.168.56.25
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+ls -al
+sudo nano .my.cnf
+sudo nano /home/altschool/.my.cnf
+ansible-playbook last_mysql.yml
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+clear
+sudo -i
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+ssh vagrant@192.168.56.25
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+nano last_mysql.yml
+ansible-playbook last_mysql.yml
+ssh vagrant@192.168.56.25
+ansible-playbook last_mysql.yml
+clear
+ls -al
+pwd
+cp * /home/altschool
+cp * /home/altschool/
+sudo cp * /home/altschool/
+ls -alrt
+cd /home/altschool/
+ls -al
+cd -
+ls -al
+rm new_mysql.yml mysqlinst.yml mysqldb1.yml mysqldb1.yml
+rm -Rf new_mysql.yml mysqlinst.yml mysqldb1.yml mysqldb1.yml
+rm -Rf mysqldb.yml mysql1.yml lampstack1.yml lampstack.sh db_create.yml create_database_user.yml check.yml
+ls -al
+git init
+nano vagrantfile
+git add
+git add .
+git commit
+git config --global user.email "olaniyanjide@hotmail.com"
+git config --global user.name "Olaniyan Jide"
+git add *.
+git add .
+git commit
+git commit -m "Ansible Assignment"
+git branch
+git config --list
+git status
+git add all
+git add .
+git status
+git add *.*
+git status
+ls -al
+git add *yml .* dump* vagrantfile
+git add --all
+git status
+git commit
+ls -al
+pwd
+more mysql.yml
+ls -al
+more lampstack.yml
+ls -al
+more last_mysql.yml
+ls -al
+more dump.sql
+more lampstack.yml
+git --version
+mkdir tmp
+cd /tmp
+cd ..
+rm tmp
+rm -Rf tmp
+ls -al
+git config --global user.name "Olaniyan Jide"
+git config --global user.email "olaniyanjide@hotmail.com"
+git config --list
+git branch -a
+git checkout -b altschool
+ls -alrt
+cd /home/vagrant
+ls -al
+cd .git
+ls -alrt
+git branch -a
+git add .
+cd ..
+git add .
+git commit -m "First Ansible Assignment"
+git branch
+git push
+ls -al
+git add *yml
+git add vagrantfile
+git add *sql
+git add *cnf
+git commit -m "First Ansible Assignment" all
+git commit -m "First Ansible Assignment" *.*
+git push -u origin master
+git init
+ls -alrt
+git --global user.name "olaniyanjide@hotmail.com"
+man git
+git -h
+git --help
+ls -alrt
+git add .
+git status
+cd .git
+ls -al
+git add .
+cd ..
+ls -al
+nano .gitconfig
+rm -rf tmp
+ls -al
+apt-get install git
+sudo apt-get install git
+git config --global user.name "Olaniyan Jide"
+git config --global user.email "olaniyanjide@hotmail.com"
+git config --list
+git config –global init.defaultBranch main
+git config –-global init.defaultBranch main
+git config --global init.defaultBranch main
+git config --list
+ls -al
+git status
+git add .
+git status
+git clone
+git push --all
+git add .
+git commit -m "Initial Ansible Assignment commit"
+git remote add origin https://github.com/jidejj/Cloud/
+git push -u origin main
+git push -u origin master
+sudo apt update
+sudo apt install gh
+snap install gh
+sudo snap install gh
+git push -u origin master
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+cd /home/vagrant/.ssh
+ls -al
+more id_rsa.pub
+git remote set-url origin https://jidejj:JideT@github.com/Jide Olaniyan/master.git
+git remote set-url origin https://jidejj:git remote set-url origin https://your_username:your_token@github.com/your_username/your_repository.git@github.com/Jide Olaniyan/master.git
+git remote set-url --push Assignment https://jidejj:git
+git remote set-url --push master https://jidejj:git
+git push origin master
+git remote set-url origin https://jidejj:JideTT@github.com/jidejj/Cloud.git
+git push origin master
+git push
+git push --set-upstream origin master
+git clone https://jidejj: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@github.com/jidejj/Cloud.git
+ls -al
+cd Cloud/
+ls -al
+exit
